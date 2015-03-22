@@ -1,0 +1,38 @@
+{
+  "name": "keys-tree",
+  "description": "Recursively builds a tree of object keys. Useful for creating lists or debugging.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/keys-tree",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/keys-tree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/keys-tree/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/keys-tree/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "dependencies": {
+    "is-plain-object": "^1.0.0"
+  }
+}
